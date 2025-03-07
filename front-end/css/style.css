@@ -41,7 +41,7 @@ input {
 
 }
 
-button [type="submite"]{
+button[type="submit"]{
     background-color: #0099ff;
     height: 50px;
     width: 50px;
