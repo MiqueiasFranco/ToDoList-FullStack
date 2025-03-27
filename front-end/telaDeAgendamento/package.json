@@ -1,6 +1,10 @@
 {
   "name": "tela-de-agendamento",
+<<<<<<< HEAD
   "version": "20.0",
+=======
+  "version": "0.0.0",
+>>>>>>> 1008a50 (front angular)
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -38,6 +38,7 @@
           },
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "optimization": {
                 "scripts": true,
                 "styles": {
@@ -46,6 +47,8 @@
                 },
                 "fonts": false
               },
+=======
+>>>>>>> 1008a50 (front angular)
               "budgets": [
                 {
                   "type": "initial",
