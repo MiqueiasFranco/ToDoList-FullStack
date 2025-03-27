@@ -1,0 +1,12 @@
+<swiper-container navigation="true" loop="true" pagination="true"  class="servico-container">
+    <swiper-slide *ngFor="let servico of servicos$ | async" id="servico">
+        <p  id="nome-servico"> {{ servico.nome }} </p>
+        <p id="duracao" > {{ servico.duracao }} </p>
+        <p id="valor" > {{ servico.valor }} </p>
+        <button  (click)="cadastrarCliente(servico.nome)" id="button-agendar"> Agendar </button>
+    </swiper-slide>
+</swiper-container>
+<div *ngIf="mensagem" class="mensagem-container">
+    <h6>{{mensagem}}</h6>
+</div>
+<router-outlet></router-outlet>
